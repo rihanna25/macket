@@ -20,7 +20,10 @@
 }
 header{
     background: linear-gradient(to left, rgba(0, 0, 255, 0.687), #004D8B
-    ) ;
+    ) , url(../images/WhatsApp\ Image\ 2025-10-29\ à\ 21.53.51_f0243fac.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .navbar{
     display: flex;
@@ -28,6 +31,7 @@ header{
     padding-top: 18px;
     padding-bottom: 18px;
     color: #fff;
+    align-items: center;
 }
 .links{
     display: flex;
@@ -37,8 +41,9 @@ header{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding-bottom: 64px;
+    padding-left:100px;
     padding-top: 64px;
+    padding-bottom: 64px;
 }
 .text h1{
     font-size: 48px;
@@ -55,13 +60,19 @@ header{
 .touch button{
     color: #004D8B;
     background-color: #fff;
-    align-self: flex-start;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: 400px;
 }
  .logo{
     display: flex;
+    align-items: center;
+    gap: 24px;
   }
   .touch{
     display: flex;
+    gap: 16px;
+    align-items: center;
   }
   .title{
     display: flex;
@@ -69,6 +80,10 @@ header{
     padding-bottom: 64px;
     padding-top: 64px;
     gap: 24px;
+  }
+  .section1{
+    color: #001D34B2;
+    padding: 0px 64px; 
   }
   .card{
     display: flex;
@@ -94,14 +109,28 @@ header{
     gap: 24px;
   }
   .card1 button{
-    align-self: flex-start;
+    padding: 16px 24px;
     background-color: #004D8B;
+    align-self: flex-start;
+    color: #fff;
+
   }
   .section2{
     background-color: #A4CA391A;
     padding: 64px 64px;
     display: flex;
     flex-direction: column;
+    color: #001D34B2;
+  }
+  .section2 h1{
+     font-size: 48px;
+    font-weight: 600px;
+    line-height: 1;
+  }
+  .section2 p{
+    font-size: 32px;
+    font-weight: 100px;
+    line-height: 1.5;
   }
 .grid{
   display: flex;
@@ -117,7 +146,6 @@ header{
 .m{
   width:652px ;
   height:500px;
-  background: linear-gradient(to top, rgba(0, 0, 255, 0.687), #004D8B ) 
 }
 .section3{
   display: flex;
@@ -141,4 +169,63 @@ header{
 .section3 button{
   align-self: self-start;
   background-color: #004D8B;
+  padding: 16px 24px;
+  color: #fff;
+}
+.section4{
+  padding: 128px 128px;
+  color: #001D34B2;
+}
+.titre{
+  color: #001D34;
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.description{
+  font-size: 32px;
+  font-weight: 300px;
+  line-height: 1.5;
+}
+.finish{
+ font-size: 32px; 
+ color: #004D8B;
+ font-weight: 600;
+  line-height: 1.5;
+}
+.section5{
+  display: flex;
+  padding: 68px 68px;
+  flex-direction: column;
+}
+.section5 h1{
+  font-size: 48px;
+  font-weight: 6OOpx;
+  color: #001D34;
+  line-height: 1;
+}
+.section5 P{
+  font-size: 32px;
+  font-weight: 300px;
+  color: #001D34B2;
+  line-height: 1.5;
+}
+.section5 card{
+  display: flex;
+gap: 24px;
+}
+.C1{
+padding: 24px 16px;
+}
+.black{
+  color: #001D34;
+}
+.blue{
+  color: #004D8B;
+}
+.yellow{
+  color: #A4CA39;
+}
+.under{
+  text-decoration: underline;
 }
